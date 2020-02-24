@@ -8,25 +8,22 @@ pipeline {
         }
         stage('Version Manager') {
             steps {
-                bat 'echo $JAVA_HOME'
-                bat 'cd'
-                bat 'REM cd appian-adm-versioning-client-2.5.9'
-                bat 'REM version-application -action addContents -vc_password Its4megha'
+                bat '''
+                echo $JAVA_HOME
+                cd
+                REM cd appian-adm-versioning-client-2.5.9
+                REM version-application -action addContents -vc_password Its4megha
+                '''
             }
         }
-        /**stage('Import Manager') {
+        stage('Import Manager') {
             steps {
-                bat 'cd appian-adm-import-client-2.5.9'
-                bat 'cd'
-                bat 'deploy-application.bat -password a'
+                bat '''
+                cd appian-adm-import-client-2.5.9
+                cd
+                deploy-application.bat -password a
+                '''
             }
-        }**/
-        stage('test') {
-          cmd_exec('echo "Build starting..."')
-          cmd_exec('echo "dir /a /b"')
-          }
+        }
   }
-  def cmd_exec(command) {
-    return bat(returnStdout: true, script: "${command}").trim()
-    }
 }
