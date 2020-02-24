@@ -11,8 +11,8 @@ pipeline {
                 bat '''
                 echo $JAVA_HOME
                 cd
-                REM cd appian-adm-versioning-client-2.5.9
-                REM version-application -action addContents -vc_password Its4megha
+                cd appian-adm-versioning-client-2.5.9
+                version-application -action addContents -vc_password Its4megha
                 '''
             }
         }
