@@ -21,7 +21,7 @@ pipeline {
                 bat '''
                 cd appian-adm-import-client-2.5.9
                 cd
-                deploy-application.bat -password ${appian_pwd}
+                deploy-application.bat -username %appian_username% -password %appian_pwd% -url %target_environment% -uuid %uuid% -applicationPath %application_path%
                 '''
             }
         }
