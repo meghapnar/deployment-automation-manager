@@ -12,7 +12,7 @@ pipeline {
                 echo $JAVA_HOME
                 cd
                 cd appian-adm-versioning-client-2.5.9
-                version-application -action addContents -vc_password Its4megha
+                version-application -action addContents -vc_password ${vc_password}
                 '''
             }
         }
@@ -21,7 +21,7 @@ pipeline {
                 bat '''
                 cd appian-adm-import-client-2.5.9
                 cd
-                deploy-application.bat -password a
+                deploy-application.bat -password ${appian_pwd}
                 '''
             }
         }
