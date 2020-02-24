@@ -1,0 +1,49 @@
+2020-02-24 12:01:47,850 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportApplication - ImportManagerProperties:
+[acCustomizationPath:value not provided],
+[adminConsolePath:value not provided],
+[username:megha],
+[password:***],
+[applicationPath:C:\Users\megha.narayanan\Documents\GitHub\VM-Application\MEG VM Application.zip],
+[ddlDs:value not provided],
+[ddlPath:value not provided],
+[flywayPath:value not provided],
+[forceImport:value not provided],
+[importCustomizationPath:value not provided],
+[inspectOnly:value not provided],
+[proxyPort:value not provided],
+[proxyUrl:value not provided],
+[proxyUsername:value not provided],
+[proxyPassword:value not provided],
+[url:https://cms-devops2.appianci.net/suite],
+[uuid:value not provided],
+
+2020-02-24 12:01:47,856 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Port set to 443
+2020-02-24 12:01:47,857 [main] ERROR com.appiancorp.ps.plugins.automatedimport.remote.ImportApplication - java.nio.file.NoSuchFileException: C:\Users\megha.narayanan\Documents\GitHub\VM-Application\MEG VM Application.zip
+2020-02-24 12:02:34,338 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportApplication - ImportManagerProperties:
+[acCustomizationPath:value not provided],
+[adminConsolePath:value not provided],
+[username:megha],
+[password:***],
+[applicationPath:C:\Users\megha.narayanan\Documents\GitHub\VM-Application\MEG VM Vehicle Management.zip],
+[ddlDs:value not provided],
+[ddlPath:value not provided],
+[flywayPath:value not provided],
+[forceImport:value not provided],
+[importCustomizationPath:value not provided],
+[inspectOnly:value not provided],
+[proxyPort:value not provided],
+[proxyUrl:value not provided],
+[proxyUsername:value not provided],
+[proxyPassword:value not provided],
+[url:https://cms-devops2.appianci.net/suite],
+[uuid:value not provided],
+
+2020-02-24 12:02:34,346 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Port set to 443
+2020-02-24 12:02:37,763 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Status: In Progress. Current step: Inspecting Application. 
+2020-02-24 12:02:43,590 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Status: In Progress. Current step: Inspecting Application. 
+2020-02-24 12:02:48,982 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Status: In Progress. Current step: Importing Application. Log file URL: https://cms-devops2.appianci.net/suite/doc/1175. 
+2020-02-24 12:02:54,479 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Status: In Progress. Current step: Importing Application. Log file URL: https://cms-devops2.appianci.net/suite/doc/1175. 
+2020-02-24 12:03:00,376 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Status: In Progress. Current step: Importing Application. Log file URL: https://cms-devops2.appianci.net/suite/doc/1175. 
+2020-02-24 12:03:06,187 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Status: In Progress. Current step: Importing Application. Log file URL: https://cms-devops2.appianci.net/suite/doc/1175. 
+2020-02-24 12:03:12,369 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Status: In Progress. Current step: Importing Application. Log file URL: https://cms-devops2.appianci.net/suite/doc/1175. 
+2020-02-24 12:03:17,687 [main] INFO  com.appiancorp.ps.plugins.automatedimport.remote.ImportUtils - Status: Complete. Current step: Importing Application. Log file URL: https://cms-devops2.appianci.net/suite/doc/1214. 
