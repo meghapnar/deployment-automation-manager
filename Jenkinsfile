@@ -9,7 +9,7 @@ pipeline {
                 '''
             }
         }
-        stage('Version Manager') {
+        stage('Sync to GitHub') {
             steps {
                 bat '''
                 echo "Java home is set to:"
@@ -20,7 +20,7 @@ pipeline {
                 '''
             }
         }
-        stage('Import Manager') {
+        stage('Importing Application') {
             steps {
                 bat '''
                 cd appian-adm-import-client-2.5.9
