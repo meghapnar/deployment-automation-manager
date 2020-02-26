@@ -835,3 +835,112 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/meghap
 [proxyPassword:value not provided],
 
 2020-02-26 15:47:31,978 [main] ERROR com.appiancorp.ps.automatedversioning.ValidateParameters - The "username" argument is required when defining a password with "vc_password"
+2020-02-26 15:48:28,593 [main] INFO  com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - VersionManagerProperties:
+[vcUsername:meghapnar],
+[vcPassword:***],
+[commitMessage:patch],
+[action:addContents],
+[applicationPath:C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\\MEG VM Vehicle Management.zip],
+[adminConsolePath:value not provided],
+[ddlPath:value not provided],
+[flywayPath:value not provided],
+[ddlDs:value not provided],
+[uuid:value not provided],
+[applicationName:value not provided],
+[startHash:value not provided],
+[endHash:value not provided],
+[packagePath:value not provided],
+[versionControlType:GIT],
+[repoUrl:https://github.com/meghapnar/VM-Application.git],
+[localRepoPath:C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application],
+[branchName:feature1],
+[appianObjectsRepoPath:value not provided],
+[noUpdate:value not provided],
+[enableFolderListenerCommitMessage:value not provided],
+[proxyPort:value not provided],
+[proxyUrl:value not provided],
+[proxyUsername:value not provided],
+[proxyPassword:value not provided],
+
+2020-02-26 15:48:29,785 [main] INFO  com.appiancorp.ps.automatedversioning.GitObject - Local repo updated successfully
+2020-02-26 15:48:29,954 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - Unzipping application to repository
+2020-02-26 15:48:29,999 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\group/_e-0000e37d-16a2-8000-9aee-01075c01075c_148.xml
+2020-02-26 15:48:30,002 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\group/_e-0000e37d-16a2-8000-9aee-01075c01075c_74.xml
+2020-02-26 15:48:30,011 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\group/_e-0000e37d-16a2-8000-9aee-01075c01075c_125.xml
+2020-02-26 15:48:30,015 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\group/_e-0000e37d-16a2-8000-9aee-01075c01075c_219.xml
+2020-02-26 15:48:30,019 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\group/_e-0000e37d-16a2-8000-9aee-01075c01075c_235.xml
+2020-02-26 15:48:30,024 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\group/_e-0000e37d-16a2-8000-9aee-01075c01075c_263.xml
+2020-02-26 15:48:30,026 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\datatype/%7Burn%3Acom%3Aappian%3Atypes%7DMEG_VM_Vehicle.xsd
+2020-02-26 15:48:30,032 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\datatype/%7Burn%3Acom%3Aappian%3Atypes%7DMEG_VM_Maintenance.xsd
+2020-02-26 15:48:30,036 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\dataStore/_a-0000e37d-16a2-8000-9ba2-011c48011c48_32328.xml
+2020-02-26 15:48:30,045 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_29033.xml
+2020-02-26 15:48:30,054 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_29129.xml
+2020-02-26 15:48:30,058 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_29219.xml
+2020-02-26 15:48:30,062 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_29386.xml
+2020-02-26 15:48:30,067 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_29411.xml
+2020-02-26 15:48:30,071 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_29440.xml
+2020-02-26 15:48:30,077 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_29700.xml
+2020-02-26 15:48:30,081 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_29894.xml
+2020-02-26 15:48:30,087 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_30077.xml
+2020-02-26 15:48:30,091 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_30251.xml
+2020-02-26 15:48:30,095 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_30440.xml
+2020-02-26 15:48:30,102 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/3698c67b-177e-4110-8b9c-cb0901714ab3.xml
+2020-02-26 15:48:30,105 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_31015.xml
+2020-02-26 15:48:30,112 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_31494.xml
+2020-02-26 15:48:30,117 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_31499.xml
+2020-02-26 15:48:30,122 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_31753.xml
+2020-02-26 15:48:30,126 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_31019.xml
+2020-02-26 15:48:30,130 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_33380.xml
+2020-02-26 15:48:30,136 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_33351.xml
+2020-02-26 15:48:30,140 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_33622.xml
+2020-02-26 15:48:30,146 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_34071/file.png
+2020-02-26 15:48:30,149 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_34071.xml
+2020-02-26 15:48:30,154 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_34105.xml
+2020-02-26 15:48:30,161 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_34388.xml
+2020-02-26 15:48:30,165 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_34558.xml
+2020-02-26 15:48:30,171 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_34805.xml
+2020-02-26 15:48:30,180 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_35684.xml
+2020-02-26 15:48:30,183 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_37826.xml
+2020-02-26 15:48:30,187 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_35576.xml
+2020-02-26 15:48:30,196 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_36435.xml
+2020-02-26 15:48:30,200 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_36538.xml
+2020-02-26 15:48:30,206 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_37086.xml
+2020-02-26 15:48:30,214 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\processModelFolder/_g-0000e37d-16a2-8000-f92f-7f0000014e7a_16.xml
+2020-02-26 15:48:30,219 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\processModel/0002e387-b108-8000-f92f-7f0000014e7a.xml
+2020-02-26 15:48:30,224 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\recordType/9fd45919-f325-46d7-932f-4797888b2adc.xml
+2020-02-26 15:48:30,229 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_37412.xml
+2020-02-26 15:48:30,237 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_37662.xml
+2020-02-26 15:48:30,241 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\tempoFeed/7d0847bc-e27e-4846-8977-ac142fd511c4.xml
+2020-02-26 15:48:30,246 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\processModel/0002e38a-3ce3-8000-f92f-7f0000014e7a.xml
+2020-02-26 15:48:30,254 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\processModel/0002e388-ee92-8000-f92f-7f0000014e7a.xml
+2020-02-26 15:48:30,259 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\recordType/816a7a04-a116-41de-bf48-5890734d7f0e.xml
+2020-02-26 15:48:30,263 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_38363.xml
+2020-02-26 15:48:30,271 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_38308.xml
+2020-02-26 15:48:30,275 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e37d-16a2-8000-9ba2-011c48011c48_38543.xml
+2020-02-26 15:48:30,279 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e409-3b60-8000-3895-92ef9092ef90_6864.xml
+2020-02-26 15:48:30,284 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\content/_a-0000e409-3b60-8000-3895-92ef9092ef90_6858.xml
+2020-02-26 15:48:30,289 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\processModel/0002e381-5502-8000-f92f-7f0000014e7a.xml
+2020-02-26 15:48:30,296 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\processModel/0004e386-432b-8000-f92f-7f0000014e7a.xml
+2020-02-26 15:48:30,305 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\tempoReport/125a82bd-4b4a-4d59-8365-00670751b625.xml
+2020-02-26 15:48:30,309 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\site/87d6e954-1623-47a4-a413-e23e26977294.xml
+2020-02-26 15:48:30,430 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted and updated XML/XSD file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\application/_a-0000e37d-16a2-8000-9ba2-011c48011c48_28790.xml
+2020-02-26 15:48:30,457 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\META-INF\_a-0000e37d-16a2-8000-9ba2-011c48011c48_28790\MANIFEST.MF
+2020-02-26 15:48:30,470 [main] INFO  com.appiancorp.ps.automatedversioning.VersionUtils - Successfully extracted file C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\application_files\META-INF\_a-0000e37d-16a2-8000-9ba2-011c48011c48_28790\export.log
+2020-02-26 15:48:30,483 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - Checking for DDLs
+2020-02-26 15:48:30,496 [main] INFO  com.appiancorp.ps.automatedversioning.VCSAndBuildController - Checking for Flyway directories
+2020-02-26 15:48:30,754 [main] INFO  com.appiancorp.ps.automatedversioning.GitObject - Committed all changes to repository at C:\Users\megha.narayanan\Documents\GitHub\VM-Application\.git. Commit hash: 1fd906011b97e199bb65403565236a38caf97d7b
+2020-02-26 15:48:31,049 [main] ERROR com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - There was an error completing the selected operation. Additional details will be logged.
+2020-02-26 15:48:31,050 [main] ERROR com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - Details of error: 
+org.eclipse.jgit.api.errors.TransportException: https://github.com/meghapnar/VM-Application.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:172)
+	at com.appiancorp.ps.automatedversioning.GitObject.gitPush(GitObject.java:227)
+	at com.appiancorp.ps.automatedversioning.GitObject.commit(GitObject.java:172)
+	at com.appiancorp.ps.automatedversioning.VCSAndBuildController.addContents(VCSAndBuildController.java:155)
+	at com.appiancorp.ps.automatedversioning.AutomatedVersioningManager.main(AutomatedVersioningManager.java:154)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/meghapnar/VM-Application.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:495)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:381)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:160)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1272)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:161)
+	... 4 more
