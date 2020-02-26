@@ -13,7 +13,7 @@ pipeline {
                 echo %JAVA_HOME%
                 cd
                 cd appian-adm-versioning-client-2.5.9
-                version-application -action addContents vc_username %git_username% -vc_password %git_password% -commit_message %commit_message% -application_path "%application_path%" -admin_console_path %admin_console_path% -local_repo_path %local_repo_path% -package_path "%package_path%" -repo_url %git_repo_url% -branch_name %git_branch_name% -UUID %uuid%
+                version-application -action addContents vc_username %git_username% -vc_password %git_password% -commit_message %commit_message% -application_path "%application_path%" -admin_console_path %admin_console_path% -local_repo_path %local_repo_path% -package_path "%package_path%" -repo_url %git_repo_url% -branch_name %git_branch_name% -uuid "%uuid%"
                 '''
             }
         }
