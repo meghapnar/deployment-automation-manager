@@ -807,3 +807,31 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/meghap
 	at org.eclipse.jgit.transport.Transport.push(Transport.java:1272)
 	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:161)
 	... 4 more
+2020-02-26 15:47:31,971 [main] INFO  com.appiancorp.ps.automatedversioning.AutomatedVersioningManager - VersionManagerProperties:
+[vcUsername:value not provided],
+[vcPassword:***],
+[commitMessage:patch],
+[action:addContents],
+[applicationPath:C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application\\MEG VM Vehicle Management.zip],
+[adminConsolePath:value not provided],
+[ddlPath:value not provided],
+[flywayPath:value not provided],
+[ddlDs:value not provided],
+[uuid:value not provided],
+[applicationName:value not provided],
+[startHash:value not provided],
+[endHash:value not provided],
+[packagePath:value not provided],
+[versionControlType:GIT],
+[repoUrl:https://github.com/meghapnar/VM-Application.git],
+[localRepoPath:C:\\Users\\megha.narayanan\\Documents\\GitHub\\VM-Application],
+[branchName:feature1],
+[appianObjectsRepoPath:value not provided],
+[noUpdate:value not provided],
+[enableFolderListenerCommitMessage:value not provided],
+[proxyPort:value not provided],
+[proxyUrl:value not provided],
+[proxyUsername:value not provided],
+[proxyPassword:value not provided],
+
+2020-02-26 15:47:31,978 [main] ERROR com.appiancorp.ps.automatedversioning.ValidateParameters - The "username" argument is required when defining a password with "vc_password"
