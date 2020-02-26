@@ -3,7 +3,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'git checkout master'
+                bat '''
+                git checkout master
+                git pull
+                '''
             }
         }
         stage('Version Manager') {
