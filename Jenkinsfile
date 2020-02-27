@@ -12,7 +12,6 @@ pipeline {
         stage('Sync to GitHub') {
             steps {
                 bat '''
-                echo "Java home is set to:"
                 echo %JAVA_HOME%
                 cd
                 cd appian-adm-versioning-client-2.5.9
