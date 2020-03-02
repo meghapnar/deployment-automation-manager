@@ -11,7 +11,6 @@ pipeline {
         }
         stage('Sync to GitHub') {
             steps {
-              wrap([$class: 'BuildUser']) {
                 bat '''
                 echo "%JAVA_HOME%
                 cd
@@ -32,7 +31,6 @@ pipeline {
                 :buildMultipleApps
                 version-application -action "%action%" -vc_username "%git_username%" -vc_password "%git_password%" -commit_message "%commit_message% %git_username%" -application_path "%application_path%" -local_repo_path "%local_repo_path%" -admin_console_path "%admin_console_path%" -ddl_path "%ddl_path%" -ddl_ds "%ddl_ds%" -repo_url "%git_repo_url%" -branch_name "%git_branch_name%" -application_name "%application_name%"-package_path "%package_path%" -uuid "%uuid%" -start_hash "%start_hash%" -end_hash "%end_hash%" -no_update "%no_update%
                 '''
-                }
             }
         }
         stage('Importing Application') {
