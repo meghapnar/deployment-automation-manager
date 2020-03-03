@@ -38,7 +38,7 @@ pipeline {
                 bat '''
                 cd appian-adm-import-client-2.5.9
                 cd
-                if not %action%==updateLocalRepo deploy-application.bat -username "%appian_username%" -password "%appian_pwd%" -url "%target_environment%" -application_path "%application_path%"
+                if not %action%==updateLocalRepo deploy-application.bat -username "%appian_username%" -password "%appian_pwd%" -url "%target_environment%" -application_path "%application_path%" -uuid "%uuid%"
                 '''
             }
         }
