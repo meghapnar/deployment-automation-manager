@@ -12,7 +12,7 @@ pipeline {
         stage('Sync to GitHub') {
             steps {
                 bat '''
-                echo "%JAVA_HOME%
+                echo %JAVA_HOME%
                 cd
                 cd appian-adm-versioning-client-2.5.9
                 if %action%==addContents goto :addContents
