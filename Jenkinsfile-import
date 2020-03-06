@@ -17,6 +17,7 @@ pipeline {
       stage('Importing Application') {
         steps {
             bat '''
+              echo %application_path%
               cd appian-adm-import-client-2.5.9
               cd
               if "%ddl_path%"=="" goto :deployOnlyApp
