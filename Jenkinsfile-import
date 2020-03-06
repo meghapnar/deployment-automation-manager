@@ -17,6 +17,7 @@ pipeline {
               cd %git_repo_name%
               set application_path=%cd%
               echo %application_path%
+              cd ..
               cd appian-adm-import-client-2.5.9
               cd
               if "%ddl_path%"=="" goto :deployOnlyApp else  goto :deployAll
