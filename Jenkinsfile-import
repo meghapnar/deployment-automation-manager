@@ -19,7 +19,8 @@ pipeline {
             bat '''
               cd appian-adm-import-client-2.5.9
               cd
-              deploy-application.bat -username "%appian_username%" -password "%appian_pwd%" -url "%target_environment%" -application_path "%application_path%" -admin_console_path "%admin_console_path%" -ac_customization_path "%ac_customization_path%" -ddl_ds "%ddl_ds%" -ddl_path "%ddl_path%" -flyway_path "%flyway_path%" -force_import "%force_import%" -import_customization_path "%import_customization_path%" -inspect_only "%inspect_only%" -proxy_port "%proxy_port%" -proxy_url "%proxy_url%" -uuid "%uuid%"
+              if "%ddl_path%"=="" deploy-application.bat -username "%appian_username%" -password "%appian_pwd%" -url "%target_environment%" -application_path "%application_path%" -admin_console_path "%admin_console_path%" -ac_customization_path "%ac_customization_path%" -force_import "%force_import%" -import_customization_path "%import_customization_path%" -inspect_only "%inspect_only%" -proxy_port "%proxy_port%" -proxy_url "%proxy_url%" -uuid "%uuid%"
+              else deploy-application.bat -username "%appian_username%" -password "%appian_pwd%" -url "%target_environment%" -application_path "%application_path%" -admin_console_path "%admin_console_path%" -ac_customization_path "%ac_customization_path%" -ddl_ds "%ddl_ds%" -ddl_path "%ddl_path%" -flyway_path "%flyway_path%" -force_import "%force_import%" -import_customization_path "%import_customization_path%" -inspect_only "%inspect_only%" -proxy_port "%proxy_port%" -proxy_url "%proxy_url%" -uuid "%uuid%"
               '''
               }
           }
