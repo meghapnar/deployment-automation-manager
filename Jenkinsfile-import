@@ -1,23 +1,16 @@
 pipeline {
     agent any
     stages {
-    stage('Checkout Branch to Deploy') {
-      steps{
-        bat '''
-        rmdir /s /q %git_repo_name%
-        git clone "%git_repo_url%"
-        git checkout "%git_branch_name%"
-        git pull
-        cd %git_repo_name%
-        set application_path="%cd%"
-        echo %application_path%
-        '''
-      }
-    }
       stage('Importing Application') {
         steps {
             bat '''
-              echo '%application_path%'
+              rmdir /s /q %git_repo_name%
+              git clone "%git_repo_url%"
+              git checkout "%git_branch_name%"
+              git pull
+              cd %git_repo_name%
+              set application_path=%cd%
+              echo %application_path%
               cd appian-adm-import-client-2.5.9
               cd
               IF "%ddl_path%"=="" goto :deployOnlyApp
