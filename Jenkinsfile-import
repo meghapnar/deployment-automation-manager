@@ -6,10 +6,10 @@ pipeline {
         bat '''
         rmdir /s /q %git_repo_name%
         git clone "%git_repo_url%"
-        git checkout master
+        git checkout "%git_branch_name%"
         git pull
         cd %git_repo_name%
-        set "application_path=%cd%"
+        set application_path="%cd%"
         echo %application_path%
         '''
       }
