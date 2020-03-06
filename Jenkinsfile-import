@@ -8,15 +8,14 @@ pipeline {
           git clone "%git_repo_url%"
           git checkout "%git_branch_name%"
           git pull
-          cd %git_repo_name%
-          set application_path=%cd%
-          echo %application_path%
           '''
         }
       }
       stage('Importing Application') {
         steps {
             bat '''
+              cd %git_repo_name%
+              set application_path=%cd%
               echo %application_path%
               cd appian-adm-import-client-2.5.9
               cd
