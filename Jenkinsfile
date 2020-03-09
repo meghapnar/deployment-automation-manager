@@ -1,14 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Build Starting') {
-            steps {
-                bat '''
-                git checkout master
-                git pull
-                '''
-            }
-        }
         stage('Sync to GitHub') {
             steps {
                 bat '''
